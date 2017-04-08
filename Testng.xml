@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="3" parallel="methods">
+	<test name="Test4">
+		<test name="verifydateandTime">
+			<test name="Newsletter">
+				<test name="Login">
+					<parameter name="url" value="http://phptravels.net" />
+					<parameter name="username" value="user@phptravels.com" />
+					<parameter name="password" value="demouser" />
+					<classes>
+						<class name="com.Test.TestAutomation" />
+					</classes>
+				</test>
+			</test>
+		</test>
+	</test>
+	</suite>
